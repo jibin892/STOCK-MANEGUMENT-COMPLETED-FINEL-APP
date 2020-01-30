@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="432dp"
+        android:layout_height="661dp"
+
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.comix.rounded.RoundedCornerImageView
+            android:id="@+id/cimage"
+            android:layout_width="371dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerCrop"
+            app:cornerBottomDisable="false"
+            app:cornerColor="#FFFFFF"
+            app:cornerLeftDisable="false"
+            app:cornerRadius="6dp"
+            app:cornerRightDisable="false"
+            app:cornerTopDisable="false" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="4dp"
+
+            android:layout_marginRight="20dp"
+            android:text=" Product Name"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:text="Product Details"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cprice"
+            android:layout_width="348dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cdetails"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/abc"
+            android:layout_width="338dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cbuy"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btnnn"
+            android:text="BUY"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btnnnn"
+            android:text="DELETE"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

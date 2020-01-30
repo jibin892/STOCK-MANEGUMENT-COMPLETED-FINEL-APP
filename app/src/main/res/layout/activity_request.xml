@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context="com.msg91.sendotp.sample.Request">
+
+    <TextView
+        android:id="@+id/rid11"
+        android:layout_width="70dp"
+        android:layout_height="9dp"
+        android:background="#090000"
+        android:padding="8dp"
+        android:textColor="#090000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="410dp"
+        android:layout_height="71dp"
+        android:background="#EC0707"
+        android:drawableStart="@drawable/cart"
+        android:drawableLeft="@drawable/cart"
+        android:text="ADD TO CART"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/pname7"
+        android:layout_width="207dp"
+        android:layout_height="31dp"
+
+        android:text="Details"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <TextView
+        android:id="@+id/pname6"
+        android:layout_width="221dp"
+        android:layout_height="37dp"
+        android:padding="8dp"
+        android:text="Price"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+
+    <TextView
+        android:id="@+id/pname5"
+        android:layout_width="148dp"
+        android:layout_height="34dp"
+        android:padding="8dp"
+        android:text="Product Name"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:id="@+id/pname3"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bt"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/pay"
+        android:drawableStart="@drawable/pay"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.426" />
+
+    <com.comix.rounded.RoundedCornerImageView
+        android:id="@+id/pname4"
+        android:layout_width="369dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        app:cornerBottomDisable="false"
+        app:cornerColor="#0E1961"
+        app:cornerLeftDisable="false"
+        app:cornerRadius="6dp"
+        app:cornerRightDisable="false"
+        app:cornerTopDisable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/pname2"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/enter"
+        android:background="@drawable/bt"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="358dp"
+        android:layout_height="177dp"
+        android:background="@drawable/bt"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/p_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="buy"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
+</android.support.constraint.ConstraintLayout>
